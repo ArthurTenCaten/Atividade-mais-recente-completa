@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Atividade3</title>
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="index.css">
+</head>
+<body>
+	<header>
+		<h1>Guia sobre Soul Knight</h1>
+	<img src="soulknight.png">
+</header>
+<h2>Agora, para termos certeza de sua identidade, coloque alguns dados abaixo:</h2>
+
+<form>
+
+	<label for="nome">Nome</label>
+	<input type="text" id="nome" class="input-padrao" required>
+
+	<label for="email">Email</label>
+	<input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+  <h3>Ótimo, agora, se você nunca jogou ou nem ouviu falar de Soul Knight, abaixo está uma tabela para ajudá-lo a entender o básico sobre os personagens:</h3>
+
+     <table>
+          <thead>
+            <tr>
+              <th>Personagens:</th>
+              <th>Armas:</th>
+              <th>Habilidades:</th>
+            </tr>
+          </thead>
+          <tbody>
+             <tr>
+              <td>Cavaleiro</td>
+              <td>Espada do Trovão</td>
+              <td>Poder de Fogo: Use duas pistolas numa curta duração.</td>
+            </tr>
+            <tr>
+              <td>Bonzo</td>
+              <td>O Código</td>
+              <td>Relâmpago Greve: Atordoe os inimigos com um poderoso golpe.</td>
+            </tr>
+            <tr>
+              <td>Padre</td>
+              <td>Cruz de Madeira</td>
+              <td>Pacto de Cura: Realize um pacto que regenere a saúde de todos os aliados.</td>
+            </tr>
+            <tr>
+              <td>Alquimista</td>
+              <td>Máquina de Bolhas Dormente</td>
+              <td> Granada de Gás: Jogue garrafas cheias de gás venenoso.</td>
+            </tr>
+            <tr>
+              <td>Vampiro</td>
+              <td>Taça de Vinho Vermelha</td>
+              <td> Enxame de Morcego: Libere um enxame de morcegos que atacam os inimigos e aumentam sua saúde.</td>
+            </tr>
+            <tr>
+              <td>Paladino</td>
+              <td>Mangual Sagrado</td>
+              <td>Protetor de Energia: Absorva todos os danos por um curto período de tempo.</td>
+            </tr>
+            <tr>
+              <td>Assassino</td>
+              <td>Lâmina Sangrenta</td>
+              <td>Lâmina Negra: Carregue á frente e execute um poderoso ataque.</td>
+            </tr>
+            <tr>
+              <td>Elfo(a)</td>
+              <td>Arco Antigo</td>
+              <td>Foque o Fogo: Mire manualmente e dispare flechas mágicas com acerto crítico extra.</td>
+            </tr>
+            <tr>
+              <td>Robô</td>
+              <td>Arma Satelital Flutuante</td>
+              <td>Sobrecarga Elétrica: Choque elétrico contínuo nos inimigos ao redor.</td>
+            </tr>
+            <tr>
+              <td>Berserker</td>
+              <td>Luvas de Boxeador</td>
+              <td>Raiva: Executa um ataque rápido.</td>
+            </tr>
+            <tr>
+              <td>Lobisomem</td>
+              <td>Garras Flamejantes</td>
+              <td>Berserk: Transforme-se em um lobo. Quanto mais baixa estiver a vida, maior será o dano. Ganhe também alguma vida quando ela estiver baixa.</td>
+            </tr>
+            <tr>
+              <td>Druída</td>
+              <td>Osso Crocante</td>
+              <td>Invocar Lobos: Invoque lobos que lutam por você.</td>
+            </tr>
+            <tr>
+              <td>Engenheiro</td>
+              <td>H2O</td>
+              <td>Torre de Arma: Convocar uma torre de armas para fornecer suporte de fogo.</td>
+            </tr>
+            <tr>
+              <td>Guarda</td>
+              <td>João e Maria</td>
+              <td>Rolar: Avançe e desvie de ataques inimigos.</td>
+            </tr>
+      </tbody>
+        </table>
+
+<h4>Agora, sabendo dessas informações, selecione o personagem que mais te chamou atenção:</h4>
+
+<fieldset>
+
+          <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Cavaleiro</label>
+          <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Bonzo</label>
+          <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>Padre</label>
+          <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Alquimista</label>
+          <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Vampiro</label>
+          <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>Paladino</label>
+          <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Assassino</label>
+          <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>Elfo(a)</label>
+          <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Robô</label>
+          <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Berserker</label>
+          <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>Lobisomem</label>
+          <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Druida</label>
+          <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>Engenheiro</label>
+           <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>Guarda</label>
+</fieldset>
+
+<h5>Agora, caso queira saber mais sobre o assunto, clique no link abaixo.</h5>
+
+<nav>
+  <div class="caixa">
+  <ul>
+    <li> <a href="https://soul-knight-em-portugues.fandom.com/pt-br/wiki/Soul_Knight_Wiki_-_PT/BR:Principal"> Clique Aqui Para Melhores Informações</a></li>
+    <li> <a href="https://soul-knight-em-portugues.fandom.com/pt-br/wiki/Soul_Knight_Wiki_-_PT/BR:Principal"> Clique Aqui Para Melhores Informações </a></li>
+    <li> <a href="https://soul-knight-em-portugues.fandom.com/pt-br/wiki/Soul_Knight_Wiki_-_PT/BR:Principal"> Clique Aqui Para Melhores Informações </a></li>
+
+    <h6>Caso queira saber apenas o básico, apenas clique para enviar o seu formulário abaixo:</h6>
+
+      <input type="submit" value="Enviar Resposta" class="enviar">
+      <footer>
+      <img src="cavaleiro.png" alt="Logo do Soul Knight">
+      <p class="copyright">&copy; Copyright Soul Knight - 2023</p>
+      </footer>
+    </ul>
+  </div>
+</nav>
+</body>
+</footer>
+</html>

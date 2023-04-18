@@ -1,0 +1,128 @@
+header{
+	text-align: center;
+	background: black;
+}
+
+body{
+	background: ghostwhite;
+}
+
+h1{
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	font-size: 45px;
+}
+
+h2{
+	text-align: center;
+	font-size: 21px;
+	text-transform: uppercase;
+	margin: 0 auto;
+	padding: 50px 0;
+	width: 940px;
+}
+
+form{
+  margin: 40px 0;
+  font-size: 30px;
+}
+
+form label, form legend{
+  display: block;
+  font-size: 30px;
+  margin: 0 0 10px;
+}
+
+.input-padrao{
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 25px;
+  width: 50%;
+}
+
+h3{
+	text-align: center;
+	font-size: 21px;
+	text-transform: uppercase;
+	margin: 0 auto;
+	padding: 50px 0;
+	width: 940px;
+}
+
+table{
+  margin: 20px 0 40px;
+}
+
+thead{
+background: #555555;
+color:white;
+font-weight: bold;
+}
+
+td, th {
+border: 1px solid #000000;
+padding: 8px 15px;
+}
+
+ h4{
+	font-size: 21px;
+	text-transform: uppercase;
+	margin: 0 auto;
+	padding: 50px 0;
+	width: 940px;
+}
+
+ h5{
+	font-size: 21px;
+	text-transform: uppercase;
+	margin: 0 auto;
+	padding: 50px 0;
+	width: 940px;
+}
+
+h6{
+	font-size: 21px;
+	text-transform: uppercase;
+	margin: 0 auto;
+	padding: 50px 0;
+	width: 940px;
+}
+
+.caixa{
+  margin: 0 auto;
+ }
+
+.enviar{
+  width: 900px;
+  margin: 10px;
+  padding: 40px;
+  background: aqua;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  transition: 1s all;
+  cursor: pointer;
+}
+
+.enviar:hover{
+  background: blue;
+  transform:scale(1.2);
+}
+
+footer{
+  width: 100%;
+  text-align: center;
+  background: #000000;
+  margin: 20px 0 0; 
+}
+
+.copyright{
+  color: #FFFFFF;
+  font-size: 13px;
+}
+
+
+
